@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+
+    <!-- main header -->
+
+    <div class="main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+
+
+                <!-- left side div -->
+                <div class="main_header_left align-items-center">
+                    <figure class="errimg">
+                        <img src="images/404.png" alt="about" class="img-fluid" title="About me">
+                    </figure>
+
+                    <h1>{{errormsg}}</h1>
+                    <a href="/"><button>Go Back</button></a>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer code -->
+    {{>footer}}
+
+</body>
+
+</html>
